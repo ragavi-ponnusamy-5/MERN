@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Poppins", sans-serif;
+            padding: 20px;
+        }
+        .form-container {
+            background: white;
+            padding: 30px;
+            width: 100%;
+            max-width: 350px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+        h2 { text-align: center; color: #4364f7; }
+        label { font-weight: 600; }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 18px;
+            border-radius: 8px;
+            border: 1px solid #b8b8b8;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #4364f7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover { background: #2c49c6; }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>User Login</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
